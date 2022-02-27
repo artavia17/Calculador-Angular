@@ -1,0 +1,55 @@
+body,
+html{
+    overflow: hidden;
+}
+
+.centrar{
+    height: 100vh;
+}
+
+.boton{
+    width: 19%;
+}
+
+.entrada-suave{
+    transition: .2s linear;
+}
+
+.aparecer{
+    animation: resultado .5s linear;
+    opacity: 1;
+}
+
+@keyframes resultado{
+
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+.result{
+
+    animation: aparecer 0.7s linear;
+
+    opacity: 1;
+}
+
+@keyframes aparecer{
+
+    0%{
+
+        opacity: 0;
+
+    }
+
+    100%{
+
+        opacity: 1;
+
+    }
+
+}
